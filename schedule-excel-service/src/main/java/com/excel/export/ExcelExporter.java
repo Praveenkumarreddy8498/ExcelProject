@@ -133,17 +133,17 @@ public class ExcelExporter {
 		font.setColor(HSSFColorPredefined.WHITE.getIndex());
 		CellStyle styleForSNo = createCellStyle(font, IndexedColors.LAVENDER);
 
-		CellStyle styleForDay = createCellStyle(font, IndexedColors.BROWN);
+		CellStyle styleForDay = createCellStyle(font, IndexedColors.LIME);
 
-		CellStyle styleForName = createCellStyle(font, IndexedColors.DARK_RED);
+		CellStyle styleForName = createCellStyle(font, IndexedColors.OLIVE_GREEN);
 
-		CellStyle styleForDate = createCellStyle(font, IndexedColors.LAVENDER);
+		CellStyle styleForDate = createCellStyle(font, IndexedColors.TURQUOISE);
 		CreationHelper createHelper = workbook.getCreationHelper();
 		styleForDate.setDataFormat(createHelper.createDataFormat().getFormat("dd/mm/yyyy hh:mm:ss"));
 
-		CellStyle styleForDesc = createCellStyle(font, IndexedColors.BRIGHT_GREEN);
+		CellStyle styleForDesc = createCellStyle(font, IndexedColors.INDIGO);
 
-		CellStyle styleForEnabled = createCellStyle(font, IndexedColors.DARK_TEAL);
+		CellStyle styleForEnabled = createCellStyle(font, IndexedColors.SKY_BLUE);
 		
 		
 		int serialNo = 1;
