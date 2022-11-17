@@ -23,17 +23,5 @@ public class ScheduleCloudGatewayApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ScheduleCloudGatewayApplication.class, args);
 	}
-//	@Bean
-//	//this is a load balancer client and pick and choose the services
-//	@LoadBalanced
-//	public RouteLocator customRoutes(RouteLocatorBuilder builder) {
-//		return builder.routes()
-//		.route("excelService",ps->ps.path("/excel/**").uri("lb://EXCEL-SERVICE"))
-//		.route("scheduleService",ps->ps.path("/schedule/**").uri("lb://SCHEDULE-SERVICE"))
-//		.build();
-//		
-		
-		
-	}
 
-
+}
