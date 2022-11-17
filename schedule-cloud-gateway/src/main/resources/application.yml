@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: GATEWAY
+  config:
+    import: configserver:http://localhost:8888  
+  
