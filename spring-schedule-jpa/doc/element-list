@@ -1,0 +1,6 @@
+com.schedule
+com.schedule.controllers
+com.schedule.exceptions
+com.schedule.model
+com.schedule.repository
+com.schedule.service

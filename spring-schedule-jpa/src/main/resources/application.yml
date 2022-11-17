@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: SCHEDULE-SERVICE
+  config:
+    import: configserver:http://localhost:8888
+  
