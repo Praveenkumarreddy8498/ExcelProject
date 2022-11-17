@@ -122,7 +122,8 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 		return ResponseEntity.status(status).headers(headers).body(errors);
 	}
 
-	/**This method Handles ScheduleNotFoundException
+	/**
+	 * This method Handles ScheduleNotFoundException
 	 * @param ex for passing exception
 	 * @return ResponseEntity
 	 */
