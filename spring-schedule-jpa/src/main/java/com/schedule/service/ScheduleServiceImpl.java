@@ -30,13 +30,16 @@ public class ScheduleServiceImpl implements IScheduleService {
 	@Override
 	public List<Schedule> getAll() {
 		List<Schedule> schedule = scheduleRepository.findAll();
-		if (schedule.isEmpty())
+		if (schedule.isEmpty()) {
+			logger.warn("Exception occured while getting the schedule");
 			throw new ScheduleNotFoundException();
+		}
 		return schedule;
 	}
 
 	/**
 	 * This method pass the value to repository and get the return value
+	 * 
 	 * @param schedule for passing the schedule object
 	 * @return schedule object that is added
 	 */
@@ -55,7 +58,7 @@ public class ScheduleServiceImpl implements IScheduleService {
 	public List<Schedule> getByDay(String day) {
 		List<Schedule> schedule = scheduleRepository.findByDay(day);
 		if (schedule.isEmpty()) {
-			logger.info("Exception occured while getting by day");
+			logger.warn("Exception occured while getting by day");
 			throw new ScheduleNotFoundException();
 		}
 		return schedule;
