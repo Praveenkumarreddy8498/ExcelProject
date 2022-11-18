@@ -3,7 +3,9 @@ package com.schedule.exceptions;
 import java.time.LocalDateTime;
 
 import org.springframework.beans.TypeMismatchException;
-import org.springframework.http.*;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.HttpMediaTypeNotSupportedException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MissingPathVariableException;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
 import com.schedule.model.ApiErrors;
 
 /**
@@ -19,14 +22,14 @@ import com.schedule.model.ApiErrors;
  *
  */
 @ControllerAdvice
-public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
+public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
-	
 	/**
 	 * This method Handles HttpRequestMethodNotSupportedException
-	 * @param ex for passing exception
+	 * 
+	 * @param ex      for passing exception
 	 * @param headers for passing headers
-	 * @param status for passing status
+	 * @param status  for passing status
 	 * @param request for passing request
 	 * @return ResponseEntity
 	 */
@@ -43,9 +46,10 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
 	/**
 	 * This method Handles HttpMediaTypeNotSupportedException
-	 * @param ex for passing exception
+	 * 
+	 * @param ex      for passing exception
 	 * @param headers for passing headers
-	 * @param status for passing status
+	 * @param status  for passing status
 	 * @param request for passing request
 	 * @return ResponseEntity
 	 */
@@ -63,9 +67,10 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
 	/**
 	 * This method Handles MissingPathVariableException
-	 * @param ex for passing exception
+	 * 
+	 * @param ex      for passing exception
 	 * @param headers for passing headers
-	 * @param status for passing status
+	 * @param status  for passing status
 	 * @param request for passing request
 	 * @return ResponseEntity
 	 */
@@ -83,10 +88,11 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 	}
 
 	/**
-	 *  This method Handles MissingServletRequestParameterException
-	 *@param ex for passing exception
+	 * This method Handles MissingServletRequestParameterException
+	 * 
+	 * @param ex      for passing exception
 	 * @param headers for passing headers
-	 * @param status for passing status
+	 * @param status  for passing status
 	 * @param request for passing request
 	 * @return ResponseEntity
 	 */
@@ -104,9 +110,10 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
 	/**
 	 * This method Handles TypeMismatchException
-	 * @param ex for passing exception
+	 * 
+	 * @param ex      for passing exception
 	 * @param headers for passing headers
-	 * @param status for passing status
+	 * @param status  for passing status
 	 * @param request for passing request
 	 * @return ResponseEntity
 	 */
@@ -124,10 +131,11 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
 	/**
 	 * This method Handles ScheduleNotFoundException
+	 * 
 	 * @param ex for passing exception
 	 * @return ResponseEntity
 	 */
-	@ExceptionHandler(ScheduleNotFoundException .class)
+	@ExceptionHandler(ScheduleNotFoundException.class)
 	public ResponseEntity<Object> handleBookNotFound(ScheduleNotFoundException ex) {
 
 		String message = ex.getMessage();
@@ -139,7 +147,5 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 
 		return ResponseEntity.status(HttpStatus.GONE).headers(headers).body(errors);
 	}
-
-	
 
 }

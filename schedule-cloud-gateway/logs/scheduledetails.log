@@ -1,0 +1,62 @@
+2022-11-18 10:08:11,161 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2022-11-18 10:08:11,175 INFO org.springframework.boot.StartupInfoLogger [main] Starting ScheduleCloudGatewayApplication using Java 17.0.4.1 on rpkreddy with PID 9616 (C:\Users\PraveenKumarReddy\git\ExcelProject\schedule-cloud-gateway\target\classes started by PraveenKumarReddy in C:\Users\PraveenKumarReddy\git\ExcelProject\schedule-cloud-gateway)
+2022-11-18 10:08:11,177 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 10:08:11,264 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-11-18 10:08:11,265 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=GATEWAY, profiles=[default], label=null, version=2102e78d7ab8b0f946bb3a6721c6ccd0a85c5365, state=null
+2022-11-18 10:08:12,889 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=97a0f607-5273-3522-8bd4-56ec6e5d685d
+2022-11-18 10:08:13,017 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-18 10:08:13,019 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-18 10:08:13,022 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-18 10:08:14,253 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [After]
+2022-11-18 10:08:14,254 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Before]
+2022-11-18 10:08:14,256 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Between]
+2022-11-18 10:08:14,257 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Cookie]
+2022-11-18 10:08:14,258 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Header]
+2022-11-18 10:08:14,259 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Host]
+2022-11-18 10:08:14,263 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Method]
+2022-11-18 10:08:14,264 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Path]
+2022-11-18 10:08:14,265 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Query]
+2022-11-18 10:08:14,265 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [ReadBody]
+2022-11-18 10:08:14,267 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [RemoteAddr]
+2022-11-18 10:08:14,271 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-11-18 10:08:14,273 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [Weight]
+2022-11-18 10:08:14,275 INFO org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator [main] Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-11-18 10:08:15,138 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-11-18 10:08:15,456 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-11-18 10:08:15,536 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-18 10:08:15,647 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-11-18 10:08:15,719 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-11-18 10:08:15,734 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-11-18 10:08:15,779 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-11-18 10:08:15,780 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-11-18 10:08:15,780 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-11-18 10:08:15,781 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-11-18 10:08:15,782 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-11-18 10:08:15,782 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-11-18 10:08:15,783 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-11-18 10:08:16,414 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-11-18 10:08:16,422 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-11-18 10:08:16,429 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-18 10:08:16,438 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1668746296436 with initial instances count: 2
+2022-11-18 10:08:16,440 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application GATEWAY with eureka with status UP
+2022-11-18 10:08:16,441 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1668746296441, current=UP, previous=STARTING]
+2022-11-18 10:08:16,445 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY/rpkreddy:GATEWAY:9000: registering service...
+2022-11-18 10:08:16,533 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAY/rpkreddy:GATEWAY:9000 - registration status: 204
+2022-11-18 10:08:16,888 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [main] Netty started on port 9000
+2022-11-18 10:08:16,890 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 9000
+2022-11-18 10:08:17,348 INFO org.springframework.boot.StartupInfoLogger [main] Started ScheduleCloudGatewayApplication in 8.596 seconds (JVM running for 9.989)
+2022-11-18 10:13:15,809 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:18:15,816 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:23:15,821 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:27:22,398 WARN org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer [reactor-http-nio-3] No servers available for service: EXCEL-SERVICE
+2022-11-18 10:28:15,831 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:33:15,844 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:38:15,846 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:43:15,855 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:48:15,866 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:53:15,869 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 10:58:15,879 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:10:44,878 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:15:44,896 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:20:44,904 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:25:44,905 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

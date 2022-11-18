@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
 /**
  * @author PraveenKumarReddy
  *
@@ -23,11 +22,24 @@ public class Schedule {
 	Timestamp endTime;
 	String day;
 	Boolean enabled;
-	
+
+	/**
+	 * This is a default constructor
+	 */
 	public Schedule() {
 		super();
 	}
 
+	/**
+	 * This is a parameterized constructor
+	 * 
+	 * @param taskName    for passing taskName
+	 * @param description for passing description
+	 * @param startTime   for passing startTime
+	 * @param endTime     for passing endTime
+	 * @param day         for passing day
+	 * @param enabled     for passing enabled
+	 */
 	public Schedule(String taskName, String description, Timestamp startTime, Timestamp endTime, String day,
 			Boolean enabled) {
 		super();
@@ -40,14 +52,17 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a getter method
+	 * 
 	 * @return the taskId
 	 */
 	public Integer getTaskId() {
 		return taskId;
 	}
 
-	
 	/**
+	 * This is a setter method
+	 * 
 	 * @param taskId the taskId to set
 	 */
 	public void setTaskId(Integer taskId) {
@@ -55,13 +70,17 @@ public class Schedule {
 	}
 
 	/**
-	 * @return  the taskName
+	 * This is a getter method
+	 * 
+	 * @return the taskName
 	 */
 	public String getTaskName() {
 		return taskName;
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @param taskName the taskName to set
 	 */
 	public void setTaskName(String taskName) {
@@ -69,6 +88,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a getter method
+	 * 
 	 * @return the description
 	 */
 	public String getDescription() {
@@ -76,6 +97,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @param description The description to set
 	 */
 	public void setDescription(String description) {
@@ -83,6 +106,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @return The Timestamp
 	 */
 	public Timestamp getStartTime() {
@@ -90,6 +115,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @param startTime The startTime to set
 	 */
 	public void setStartTime(Timestamp startTime) {
@@ -97,6 +124,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a getter method
+	 * 
 	 * @return The endTime
 	 */
 	public Timestamp getEndTime() {
@@ -104,6 +133,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @param endTime to set
 	 */
 	public void setEndTime(Timestamp endTime) {
@@ -111,6 +142,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a getter method
+	 * 
 	 * @return to get day
 	 */
 	public String getDay() {
@@ -118,6 +151,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @param day day to set
 	 */
 	public void setDay(String day) {
@@ -125,6 +160,8 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a getter method
+	 * 
 	 * @return to get enabled
 	 */
 	public Boolean getEnabled() {
@@ -132,19 +169,21 @@ public class Schedule {
 	}
 
 	/**
+	 * This is a setter method
+	 * 
 	 * @param enabled to set enabled
 	 */
 	public void setEnabled(Boolean enabled) {
 		this.enabled = enabled;
 	}
 
+	/**
+	 * This is a toString method
+	 */
 	@Override
 	public String toString() {
 		return "Schedule [taskName=" + taskName + ", description=" + description + ", startTime=" + startTime
 				+ ", endTime=" + endTime + ", day=" + day + ", enabled=" + enabled + "]";
 	}
-	
-	
-	
-	
+
 }

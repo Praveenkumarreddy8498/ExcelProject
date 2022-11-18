@@ -95,7 +95,7 @@ public class ExcelExporter {
 	}
 
 	/**
-	 * This Method is used to write he header lines for the workbook
+	 * This Method is used to write he header lines in sheet for the workbook
 	 */
 	private void writeHeaderLines() {
 		sheet = workbook.createSheet("Schedule");
@@ -130,20 +130,20 @@ public class ExcelExporter {
 		XSSFFont font = workbook.createFont();
 		font.setFontHeight(12);
 		font.setFontName("SimSun");
-		font.setColor(HSSFColorPredefined.WHITE.getIndex());
+		font.setColor(HSSFColorPredefined.BLACK.getIndex());
 		CellStyle styleForSNo = createCellStyle(font, IndexedColors.LAVENDER);
 
-		CellStyle styleForDay = createCellStyle(font, IndexedColors.LIME);
+		CellStyle styleForDay = createCellStyle(font, IndexedColors.LIGHT_YELLOW);
 
-		CellStyle styleForName = createCellStyle(font, IndexedColors.OLIVE_GREEN);
+		CellStyle styleForName = createCellStyle(font, IndexedColors.LIGHT_ORANGE);
 
-		CellStyle styleForDate = createCellStyle(font, IndexedColors.TURQUOISE);
+		CellStyle styleForDate = createCellStyle(font, IndexedColors.LIGHT_GREEN);
 		CreationHelper createHelper = workbook.getCreationHelper();
 		styleForDate.setDataFormat(createHelper.createDataFormat().getFormat("dd/mm/yyyy hh:mm:ss"));
 
-		CellStyle styleForDesc = createCellStyle(font, IndexedColors.INDIGO);
+		CellStyle styleForDesc = createCellStyle(font, IndexedColors.LIGHT_TURQUOISE);
 
-		CellStyle styleForEnabled = createCellStyle(font, IndexedColors.SKY_BLUE);
+		CellStyle styleForEnabled = createCellStyle(font, IndexedColors.LIGHT_CORNFLOWER_BLUE);
 		
 		
 		int serialNo = 1;

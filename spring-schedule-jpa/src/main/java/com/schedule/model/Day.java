@@ -1,10 +1,13 @@
 package com.schedule.model;
 
 /**
- * @author PraveenKumarReddy
  * This class consists of WeekDay constants
+ * 
+ * @author PraveenKumarReddy
+ * 
  */
 public enum Day {
-	SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY
+
+	SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
 
 }

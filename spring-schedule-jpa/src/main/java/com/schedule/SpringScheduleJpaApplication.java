@@ -1,16 +1,11 @@
 package com.schedule;
 
 
-import java.sql.Timestamp;
-
-import java.time.DayOfWeek;
-import java.time.LocalDateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import com.schedule.model.Schedule;
+
 import com.schedule.service.IScheduleService;
 
 /**
@@ -21,6 +16,10 @@ import com.schedule.service.IScheduleService;
 
 public class SpringScheduleJpaApplication implements CommandLineRunner {
 
+	/**
+	 * This is main method
+	 * @param args for passing arguments
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(SpringScheduleJpaApplication.class, args);
 	}
@@ -30,6 +29,7 @@ public class SpringScheduleJpaApplication implements CommandLineRunner {
 	IScheduleService scheduleService;
 
 	/**
+	 * This is run method
 	 * @param args for passing arguments
 	 * @throws Exception for any exception that will occur
 	 */

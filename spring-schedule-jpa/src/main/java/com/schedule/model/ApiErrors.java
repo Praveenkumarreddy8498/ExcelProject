@@ -17,11 +17,13 @@ public class ApiErrors {
 	String error;
 
 	/**
-	 * @param timestamp for passing timestamp
-	 * @param message for passing message
-	 * @param status for passing status
+	 * This is all arguments constructor for ApiErrors
+	 * 
+	 * @param timestamp  for passing LocalDateTime
+	 * @param message    for passing message
+	 * @param status     for passing status
 	 * @param statusCode for passing statusCode
-	 * @param error for passing error
+	 * @param error      for passing error
 	 */
 	public ApiErrors(LocalDateTime timestamp, String message, HttpStatus status, int statusCode, String error) {
 		super();
@@ -33,27 +35,35 @@ public class ApiErrors {
 	}
 
 	/**
-	 * @return the timestamp
+	 * getter method for LocalDateTime
+	 * 
+	 * @return the LocalDateTime
 	 */
 	public LocalDateTime getTimestamp() {
 		return timestamp;
 	}
 
 	/**
-	 * @param timestamp the timestamp to set
+	 * setter method for LocalDateTime
+	 * 
+	 * @param timestamp the LocalDateTime to set
 	 */
 	public void setTimestamp(LocalDateTime timestamp) {
 		this.timestamp = timestamp;
 	}
 
 	/**
-	 * @return the message
+	 * getter method for String
+	 * 
+	 * @return the message 
 	 */
 	public String getMessage() {
 		return message;
 	}
 
 	/**
+	 * setter method for String
+	 * 
 	 * @param message the message to set
 	 */
 	public void setMessage(String message) {
@@ -61,6 +71,8 @@ public class ApiErrors {
 	}
 
 	/**
+	 * getter method for HttpStatus 
+	 * 
 	 * @return the status
 	 */
 	public HttpStatus getStatus() {
@@ -68,6 +80,8 @@ public class ApiErrors {
 	}
 
 	/**
+	 * setter method for HttpStatus
+	 * 
 	 * @param status the status to set
 	 */
 	public void setStatus(HttpStatus status) {
@@ -75,6 +89,8 @@ public class ApiErrors {
 	}
 
 	/**
+	 * getter method for status code 
+	 * 
 	 * @return the statusCode
 	 */
 	public int getStatusCode() {
@@ -82,6 +98,8 @@ public class ApiErrors {
 	}
 
 	/**
+	 * setter method for status code 
+	 * 
 	 * @param statusCode the statusCode to set
 	 */
 	public void setStatusCode(int statusCode) {
@@ -89,6 +107,9 @@ public class ApiErrors {
 	}
 
 	/**
+	 * 
+	 * getter method for error
+	 * 
 	 * @return the error
 	 */
 	public String getError() {
@@ -96,6 +117,8 @@ public class ApiErrors {
 	}
 
 	/**
+	 * setter method for error
+	 * 
 	 * @param error the error to set
 	 */
 	public void setError(String error) {

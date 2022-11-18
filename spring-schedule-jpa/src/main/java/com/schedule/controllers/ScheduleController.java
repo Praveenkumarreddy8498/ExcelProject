@@ -2,6 +2,7 @@ package com.schedule.controllers;
 
 import java.util.List;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,14 +26,14 @@ import com.schedule.service.IScheduleService;
 @RestController
 @RequestMapping("/schedule")
 public class ScheduleController {
-	
-	private Logger logger=LoggerFactory.getLogger(ScheduleController.class);
+
+	private Logger logger = LoggerFactory.getLogger(ScheduleController.class);
 	@Autowired
 	IScheduleService scheduleService;
-	
-	
+
 	/**
-	 * This method is used to map with the url 
+	 * This method is used to map with the url
+	 * 
 	 * @return List of tasks in a schedule as a response entity
 	 */
 	@GetMapping("/get")
@@ -41,13 +42,16 @@ public class ScheduleController {
 		HttpHeaders header = new HttpHeaders();
 		header.add("desc", "It returns the schedule");
 
-		List<Schedule> schedule=scheduleService.getAll();
-		
-		ResponseEntity<List<Schedule>> responseEntity=new ResponseEntity<List<Schedule>>(schedule,header,HttpStatus.OK);
+		List<Schedule> schedule = scheduleService.getAll();
+
+		ResponseEntity<List<Schedule>> responseEntity = new ResponseEntity<List<Schedule>>(schedule, header,
+				HttpStatus.OK);
 		return responseEntity;
 	}
+
 	/**
-	 * This method is used to map with the url
+	 * This method is used to map with the URI and adds the schedule
+	 * 
 	 * @param schedule for passing the schedule object
 	 * @return Schedule that is added
 	 */
@@ -57,25 +61,28 @@ public class ScheduleController {
 		HttpHeaders header = new HttpHeaders();
 		header.add("desc", "It adds a task to schedule");
 
-		Schedule schedule2=scheduleService.addSchedule(schedule);
-		
-		ResponseEntity<Schedule> responseEntity=new ResponseEntity<Schedule>(schedule2,header,HttpStatus.OK);
+		Schedule schedule2 = scheduleService.addSchedule(schedule);
+
+		ResponseEntity<Schedule> responseEntity = new ResponseEntity<Schedule>(schedule2, header, HttpStatus.OK);
 		return responseEntity;
 	}
+
 	/**
+	 * This method is used to map with the URI and get the schedule based on day
+	 * input
+	 * 
 	 * @param day for passing day value
-	 * @return List of tasks per day in a schedule as a response entity 
+	 * @return List of tasks per day in a schedule as a response entity
 	 */
 	@GetMapping("/day/{day}")
 	public ResponseEntity<List<Schedule>> getByDay(@PathVariable("day") String day) {
 		logger.info("showing the schedule by Day");
 		HttpHeaders header = new HttpHeaders();
 		header.add("desc", "It returns the schedule by Day");
-		List<Schedule> schedule=scheduleService.getByDay(day);
-		ResponseEntity<List<Schedule>> responseEntity=new ResponseEntity<List<Schedule>>(schedule,header,HttpStatus.OK);
+		List<Schedule> schedule = scheduleService.getByDay(day);
+		ResponseEntity<List<Schedule>> responseEntity = new ResponseEntity<List<Schedule>>(schedule, header,
+				HttpStatus.OK);
 		return responseEntity;
 	}
-	
-	
 
 }
