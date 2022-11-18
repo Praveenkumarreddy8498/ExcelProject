@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import org.springframework.http.HttpStatus;
 
 /**
+ * This is a model class for all API errors
  * @author PraveenKumarReddy
  *
  */
@@ -125,6 +126,9 @@ public class ApiErrors {
 		this.error = error;
 	}
 
+	/**
+	 *This is a toString method
+	 */
 	@Override
 	public String toString() {
 		return "ApiErrors [timestamp=" + timestamp + ", message=" + message + ", status=" + status + ", statusCode="

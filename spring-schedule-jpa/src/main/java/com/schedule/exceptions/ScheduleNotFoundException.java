@@ -1,6 +1,7 @@
 package com.schedule.exceptions;
 
 /**
+ * This is an Exception class
  * @author PraveenKumarReddy
  *
  */

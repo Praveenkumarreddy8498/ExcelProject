@@ -20,6 +20,7 @@ import com.schedule.model.Schedule;
 import com.schedule.service.IScheduleService;
 
 /**
+ * This a controller class 
  * @author PraveenKumarReddy
  *
  */
@@ -32,7 +33,7 @@ public class ScheduleController {
 	IScheduleService scheduleService;
 
 	/**
-	 * This method is used to map with the url
+	 * This method is used to map with the URI and will get the list of schedule 
 	 * 
 	 * @return List of tasks in a schedule as a response entity
 	 */

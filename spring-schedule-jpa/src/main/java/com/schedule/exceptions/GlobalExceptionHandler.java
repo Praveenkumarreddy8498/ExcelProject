@@ -18,6 +18,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import com.schedule.model.ApiErrors;
 
 /**
+ * This Class will handle the exceptions occured in controller
  * @author PraveenKumarReddy
  *
  */

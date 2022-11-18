@@ -43,12 +43,13 @@ public class ExcelController {
 	/**
 	 * This is a scheduling enabled method is used to export the excel file into
 	 * specified location
+	 * scheduler will schedule the job At 12:00 AM on every Monday through Friday​
 	 * 
 	 * @return String for response message
 	 * @throws IOException for input output exception
 	 */
 	@GetMapping("/export")
-	@Scheduled(cron = "0 * * * * 1-5")
+	@Scheduled(cron = "0 0 0 * * 1-5")
 
 	public ResponseEntity<String> excelExport() throws IOException {
 
