@@ -11,6 +11,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -47,19 +50,23 @@ public class ExcelController {
 	@GetMapping("/export")
 	@Scheduled(cron = "0 * * * * 1-5")
 
-	public String excelExport() throws IOException {
+	public ResponseEntity<String>  excelExport() throws IOException {
 
 		List<Schedule> schedule = scheduleService.getByDay(LocalDateTime.now().getDayOfWeek().name());
 		exporter = new ExcelExporter(schedule);
 		exporter.exportData();
 		logger.info("exporting the data");
+		HttpHeaders header = new HttpHeaders();
+		header.add("desc", "It adds the schedule in to workbook");
 		FileOutputStream outputStream = new FileOutputStream(filepath);
 		XSSFWorkbook workbook = exporter.getWorkbook();
 		workbook.write(outputStream);
 		logger.info("Data Written SuccesssFully "+LocalDateTime.now());
 		workbook.close();
 		outputStream.close();
-		return "Excel sheet Exported To specific location at " + LocalDateTime.now();
+		String message= "Excel sheet Exported To specific location at " + LocalDateTime.now();
+		ResponseEntity<String> responseEntity=new ResponseEntity<String>(message,header,HttpStatus.OK);
+		return responseEntity;
 	}
 
 }
