@@ -31,7 +31,7 @@ public class ExcelExporter {
 	private List<Schedule> scheduleList;
 
 	/**
-	 * 
+	 * This is parameterized constructor
 	 * @param scheduleList for passing the schedule
 	 */
 	public ExcelExporter(List<Schedule> scheduleList) {
@@ -41,6 +41,7 @@ public class ExcelExporter {
 	}
 
 	/**
+	 * This is getter method for Workbook
 	 * @return The Workbook
 	 */
 	public XSSFWorkbook getWorkbook() {
@@ -48,6 +49,7 @@ public class ExcelExporter {
 	}
 
 	/**
+	 * This is setter method for Workbook
 	 * @param workbook workbook to set
 	 */
 	public void setWorkbook(XSSFWorkbook workbook) {

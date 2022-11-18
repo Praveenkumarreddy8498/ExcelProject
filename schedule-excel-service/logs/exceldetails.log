@@ -437,3 +437,249 @@
 2022-11-18 11:27:15,582 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
 2022-11-18 11:28:00,032 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
 2022-11-18 11:28:00,040 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:28:00.040206700
+2022-11-18 11:29:00,089 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:29:00,097 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:29:00.097468200
+2022-11-18 11:30:00,124 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:30:00,130 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:30:00.130622500
+2022-11-18 11:31:00,070 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:31:00,078 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:31:00.078616500
+2022-11-18 11:32:00,095 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:32:00,105 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:32:00.105064400
+2022-11-18 11:32:15,584 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:33:00,042 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:33:00,048 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:33:00.048371
+2022-11-18 11:34:00,074 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:34:00,084 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:34:00.084625300
+2022-11-18 11:35:00,037 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:35:00,041 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:35:00.041889700
+2022-11-18 11:36:00,070 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:36:00,082 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:36:00.082324400
+2022-11-18 11:37:00,069 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:37:00,079 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:37:00.079676400
+2022-11-18 11:37:15,596 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:38:00,072 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:38:00,086 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:38:00.086221100
+2022-11-18 11:39:00,056 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:39:00,066 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:39:00.066342300
+2022-11-18 11:40:00,092 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:40:00,107 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:40:00.107821700
+2022-11-18 11:41:00,065 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:41:00,080 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:41:00.080176600
+2022-11-18 11:42:00,067 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:42:00,078 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:42:00.078908800
+2022-11-18 11:42:15,599 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:43:00,059 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:43:00,069 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:43:00.069171400
+2022-11-18 11:44:00,076 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:44:00,084 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:44:00.084873900
+2022-11-18 11:45:00,052 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:45:00,062 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:45:00.062317500
+2022-11-18 11:46:00,105 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:46:00,115 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:46:00.115497500
+2022-11-18 11:47:00,090 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:47:00,100 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:47:00.100808200
+2022-11-18 11:47:15,602 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:48:00,081 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:48:00,092 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:48:00.092550800
+2022-11-18 11:49:00,090 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:49:00,102 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:49:00.102749500
+2022-11-18 11:50:00,074 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:50:00,080 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:50:00.080389
+2022-11-18 11:51:00,068 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:51:00,077 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:51:00.077004600
+2022-11-18 11:52:00,071 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:52:00,083 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:52:00.083707400
+2022-11-18 11:52:15,605 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:53:00,039 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:53:00,050 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:53:00.049746200
+2022-11-18 11:54:00,066 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:54:00,072 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:54:00.072633800
+2022-11-18 11:55:00,030 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:55:00,038 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:55:00.038847300
+2022-11-18 11:56:00,063 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:56:00,069 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:56:00.069938
+2022-11-18 11:57:00,082 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:57:00,091 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:57:00.091912200
+2022-11-18 11:57:15,608 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 11:58:00,030 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:58:00,035 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:58:00.035295900
+2022-11-18 11:59:00,062 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 11:59:00,071 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T11:59:00.071928200
+2022-11-18 12:00:00,072 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:00:00,084 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:00:00.084823
+2022-11-18 12:01:00,063 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:01:00,071 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:01:00.071802700
+2022-11-18 12:02:00,076 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:02:00,089 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:02:00.089008400
+2022-11-18 12:02:15,610 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:03:00,069 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:03:00,076 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:03:00.076810300
+2022-11-18 12:04:00,075 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:04:00,085 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:04:00.085800
+2022-11-18 12:05:00,069 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:05:00,078 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:05:00.078713300
+2022-11-18 12:06:00,057 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:06:00,066 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:06:00.066233200
+2022-11-18 12:07:00,258 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:07:00,265 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:07:00.265380700
+2022-11-18 12:07:15,613 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:08:00,088 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:08:00,097 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:08:00.097251400
+2022-11-18 12:09:00,078 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:09:00,086 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:09:00.086966400
+2022-11-18 12:10:00,093 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:10:00,109 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:10:00.109309800
+2022-11-18 12:11:00,033 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:11:00,040 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:11:00.040381400
+2022-11-18 12:12:00,072 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:12:00,085 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:12:00.085231400
+2022-11-18 12:12:15,614 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:13:00,076 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:13:00,087 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:13:00.087686
+2022-11-18 12:14:00,043 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:14:00,049 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:14:00.049100200
+2022-11-18 12:15:00,043 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:15:00,050 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:15:00.050367300
+2022-11-18 12:16:00,039 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:16:00,044 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:16:00.044330200
+2022-11-18 12:17:00,042 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:17:00,047 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:17:00.047870300
+2022-11-18 12:17:15,629 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:18:00,028 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:18:00,034 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:18:00.034847300
+2022-11-18 12:19:00,027 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:19:00,033 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:19:00.033300800
+2022-11-18 12:20:00,036 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:20:00,041 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:20:00.041955300
+2022-11-18 12:21:00,020 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:21:00,024 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:21:00.024379800
+2022-11-18 12:21:28,425 INFO org.springframework.boot.StartupInfoLogger [main] Starting ScheduleExcelServiceApplicationTests using Java 17.0.4.1 on rpkreddy with PID 12192 (started by PraveenKumarReddy in C:\Users\PraveenKumarReddy\git\ExcelProject\schedule-excel-service)
+2022-11-18 12:21:28,430 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.13, Spring v5.3.23
+2022-11-18 12:21:28,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 12:21:28,544 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-11-18 12:21:28,545 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=EXCEL-SERVICE, profiles=[default], label=null, version=2102e78d7ab8b0f946bb3a6721c6ccd0a85c5365, state=null
+2022-11-18 12:21:30,459 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=948ec372-879c-3fa3-98ac-d23e05f9b912
+2022-11-18 12:21:31,439 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [main] For 'SCHEDULE-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2022-11-18 12:21:34,571 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-11-18 12:21:34,599 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-18 12:21:34,600 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-11-18 12:21:34,603 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-11-18 12:21:34,605 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-18 12:21:34,606 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-11-18 12:21:34,607 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-11-18 12:21:34,608 INFO org.quartz.core.QuartzScheduler [main] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3df3410a
+2022-11-18 12:21:35,086 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-11-18 12:21:35,522 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-18 12:21:35,573 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-11-18 12:21:35,744 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-11-18 12:21:35,760 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-11-18 12:21:35,813 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-11-18 12:21:35,814 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-11-18 12:21:35,814 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-11-18 12:21:35,816 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-11-18 12:21:35,817 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-11-18 12:21:35,818 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-11-18 12:21:35,819 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-11-18 12:21:36,612 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-11-18 12:21:36,620 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-11-18 12:21:36,628 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-18 12:21:36,639 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1668754296637 with initial instances count: 4
+2022-11-18 12:21:36,652 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application EXCEL-SERVICE with eureka with status UP
+2022-11-18 12:21:36,654 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1668754296654, current=UP, previous=STARTING]
+2022-11-18 12:21:36,658 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082: registering service...
+2022-11-18 12:21:36,658 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [main] Starting Quartz Scheduler now
+2022-11-18 12:21:36,659 INFO org.quartz.core.QuartzScheduler [main] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-11-18 12:21:36,696 INFO org.springframework.boot.StartupInfoLogger [main] Started ScheduleExcelServiceApplicationTests in 11.247 seconds (JVM running for 13.357)
+2022-11-18 12:21:36,801 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
+2022-11-18 12:21:37,719 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application EXCEL-SERVICE with eureka with status DOWN
+2022-11-18 12:21:37,720 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1668754297720, current=DOWN, previous=UP]
+2022-11-18 12:21:37,721 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082: registering service...
+2022-11-18 12:21:37,722 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-11-18 12:21:37,725 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [SpringApplicationShutdownHook] Shutting down Quartz Scheduler
+2022-11-18 12:21:37,725 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-11-18 12:21:37,727 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-11-18 12:21:37,727 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-11-18 12:21:37,730 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
+2022-11-18 12:21:37,732 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-11-18 12:21:40,739 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-11-18 12:21:40,745 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - deregister  status: 200
+2022-11-18 12:21:40,754 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-11-18 12:21:47,916 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - Re-registering apps/EXCEL-SERVICE
+2022-11-18 12:21:47,917 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082: registering service...
+2022-11-18 12:21:47,927 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
+2022-11-18 12:22:00,053 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:22:00,058 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:22:00.058088600
+2022-11-18 12:22:15,632 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:23:00,064 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:23:00,071 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:23:00.071403200
+2022-11-18 12:24:00,035 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:24:00,041 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:24:00.041983100
+2022-11-18 12:25:00,023 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:25:00,028 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:25:00.028115
+2022-11-18 12:26:00,062 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:26:00,068 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:26:00.068561400
+2022-11-18 12:27:00,054 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:27:00,060 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:27:00.060409900
+2022-11-18 12:27:15,635 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:28:00,053 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:28:00,058 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:28:00.058455
+2022-11-18 12:29:00,062 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:29:00,066 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:29:00.066226300
+2022-11-18 12:30:00,053 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:30:00,060 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:30:00.060562500
+2022-11-18 12:31:00,057 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:31:00,063 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:31:00.063196100
+2022-11-18 12:32:00,059 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:32:00,066 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:32:00.066857400
+2022-11-18 12:32:15,640 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:33:00,052 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:33:00,060 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:33:00.060002300
+2022-11-18 12:34:00,062 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:34:00,067 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:34:00.067462900
+2022-11-18 12:35:00,039 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:35:00,043 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:35:00.043110
+2022-11-18 12:36:00,025 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:36:00,030 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:36:00.030774400
+2022-11-18 12:37:00,026 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:37:00,033 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:37:00.032365300
+2022-11-18 12:37:15,642 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:38:00,061 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:38:00,067 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:38:00.067534600
+2022-11-18 12:39:00,051 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:39:00,058 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:39:00.058381200
+2022-11-18 12:40:00,027 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:40:00,034 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:40:00.034405600
+2022-11-18 12:41:00,028 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:41:00,033 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:41:00.033182200
+2022-11-18 12:42:00,051 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:42:00,058 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:42:00.058414400
+2022-11-18 12:42:15,644 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:43:00,038 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:43:00,042 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:43:00.042973700
+2022-11-18 12:44:00,074 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:44:00,085 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:44:00.085633500
+2022-11-18 12:45:00,070 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:45:00,077 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:45:00.077209
+2022-11-18 12:46:00,022 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:46:00,028 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:46:00.028809400
+2022-11-18 12:47:00,027 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:47:00,033 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:47:00.033808400
+2022-11-18 12:47:15,646 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 12:48:00,026 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:48:00,032 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:48:00.032441300
+2022-11-18 12:49:00,027 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:49:00,033 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:49:00.033024200
+2022-11-18 12:50:00,028 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:50:00,034 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:50:00.034699300
+2022-11-18 12:51:00,035 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:51:00,040 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:51:00.040472100
+2022-11-18 12:52:00,026 INFO com.excel.controllers.ExcelController [scheduling-1] exporting the data
+2022-11-18 12:52:00,034 INFO com.excel.controllers.ExcelController [scheduling-1] Data Written SuccesssFully 2022-11-18T12:52:00.034257800
+2022-11-18 12:52:15,649 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration

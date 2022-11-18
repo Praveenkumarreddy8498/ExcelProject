@@ -8,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
+ * This is a model class for schedule
  * @author PraveenKumarReddy
  *
  */

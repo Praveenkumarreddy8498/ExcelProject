@@ -18,7 +18,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableEurekaClient
 @EnableScheduling
 public class ScheduleExcelServiceApplication  {
-
+	/**
+	 * This is main method
+	 * @param args for passing arguments
+	 */
 	public static void main(String[] args) {
 		
 		SpringApplication.run(ScheduleExcelServiceApplication.class, args);

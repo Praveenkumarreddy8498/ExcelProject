@@ -10,15 +10,15 @@ import com.excel.model.Schedule;
 
 
 /**
- * This class acts as a feign client(Declarative Client) 
+ * This class acts as a feign client(Declarative Web Service Client) 
  * @author PraveenKumarReddy
  *
  */
 @FeignClient(name = "SCHEDULE-SERVICE")
 public interface IScheduleService {
 	
-	/** This method is used to map with the url 
-	 * @param day
+	/** This method is used to map with the URI
+	 * @param day for passing a day
 	 * @return List of schedule
 	 */
 	@GetMapping("schedule/day/{day}")
