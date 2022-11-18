@@ -81,16 +81,7 @@
 				<project.packaging>war</project.packaging>
 			</properties>
 			<dependencies>
-				<dependency>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-web</artifactId>
-					<exclusions>
-						<exclusion>
-							<artifactId>spring-boot-starter-tomcat</artifactId>
-							<groupId>org.springframework.boot</groupId>
-						</exclusion>
-					</exclusions>
-				</dependency>
+				
 				<dependency>
 					<groupId>javax.servlet</groupId>
 					<artifactId>javax.servlet-api</artifactId>

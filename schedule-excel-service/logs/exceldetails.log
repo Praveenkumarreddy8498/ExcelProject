@@ -1819,3 +1819,69 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2022-11-18 18:26:35,251 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
 2022-11-18 18:26:35,263 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
 2022-11-18 18:29:34,835 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 18:34:34,837 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 18:39:34,847 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 18:44:34,850 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 18:49:34,852 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 18:54:34,855 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2022-11-18 18:54:59,615 INFO org.springframework.boot.StartupInfoLogger [main] Starting ScheduleExcelServiceApplicationTests using Java 17.0.4.1 on rpkreddy with PID 5924 (started by PraveenKumarReddy in C:\Users\PraveenKumarReddy\git\ExcelProject\schedule-excel-service)
+2022-11-18 18:54:59,619 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.13, Spring v5.3.23
+2022-11-18 18:54:59,622 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-18 18:54:59,699 INFO org.springframework.boot.logging.DeferredLog [main] Fetching config from server at : http://localhost:8888
+2022-11-18 18:54:59,700 INFO org.springframework.boot.logging.DeferredLog [main] Located environment: name=EXCEL-SERVICE, profiles=[default], label=null, version=2102e78d7ab8b0f946bb3a6721c6ccd0a85c5365, state=null
+2022-11-18 18:55:01,723 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=948ec372-879c-3fa3-98ac-d23e05f9b912
+2022-11-18 18:55:02,666 INFO org.springframework.cloud.openfeign.FeignClientFactoryBean [main] For 'SCHEDULE-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2022-11-18 18:55:05,114 INFO org.quartz.impl.StdSchedulerFactory [main] Using default implementation for ThreadExecutor
+2022-11-18 18:55:05,142 INFO org.quartz.core.SchedulerSignalerImpl [main] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-11-18 18:55:05,143 INFO org.quartz.core.QuartzScheduler [main] Quartz Scheduler v.2.3.2 created.
+2022-11-18 18:55:05,145 INFO org.quartz.simpl.RAMJobStore [main] RAMJobStore initialized.
+2022-11-18 18:55:05,148 INFO org.quartz.core.QuartzScheduler [main] Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-11-18 18:55:05,149 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-11-18 18:55:05,150 INFO org.quartz.impl.StdSchedulerFactory [main] Quartz scheduler version: 2.3.2
+2022-11-18 18:55:05,150 INFO org.quartz.core.QuartzScheduler [main] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2a259f6f
+2022-11-18 18:55:05,881 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2022-11-18 18:55:06,525 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-11-18 18:55:06,600 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2022-11-18 18:55:06,822 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2022-11-18 18:55:06,840 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2022-11-18 18:55:06,907 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2022-11-18 18:55:06,909 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2022-11-18 18:55:06,909 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2022-11-18 18:55:06,913 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2022-11-18 18:55:06,915 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2022-11-18 18:55:06,916 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2022-11-18 18:55:06,917 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2022-11-18 18:55:07,747 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2022-11-18 18:55:07,759 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2022-11-18 18:55:07,765 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-11-18 18:55:07,779 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1668777907775 with initial instances count: 4
+2022-11-18 18:55:07,790 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application EXCEL-SERVICE with eureka with status UP
+2022-11-18 18:55:07,792 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1668777907792, current=UP, previous=STARTING]
+2022-11-18 18:55:07,795 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [main] Starting Quartz Scheduler now
+2022-11-18 18:55:07,797 INFO org.quartz.core.QuartzScheduler [main] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-11-18 18:55:07,833 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082: registering service...
+2022-11-18 18:55:07,839 INFO org.springframework.boot.StartupInfoLogger [main] Started ScheduleExcelServiceApplicationTests in 11.079 seconds (JVM running for 13.192)
+2022-11-18 18:55:07,965 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
+2022-11-18 18:55:08,952 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringApplicationShutdownHook] Unregistering application EXCEL-SERVICE with eureka with status DOWN
+2022-11-18 18:55:08,953 INFO com.netflix.discovery.DiscoveryClient$3 [SpringApplicationShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1668777908953, current=DOWN, previous=UP]
+2022-11-18 18:55:08,955 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082: registering service...
+2022-11-18 18:55:08,956 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-11-18 18:55:08,961 INFO org.springframework.scheduling.quartz.SchedulerFactoryBean [SpringApplicationShutdownHook] Shutting down Quartz Scheduler
+2022-11-18 18:55:08,961 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
+2022-11-18 18:55:08,967 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-11-18 18:55:08,968 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-11-18 18:55:08,969 INFO org.quartz.core.QuartzScheduler [SpringApplicationShutdownHook] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-11-18 18:55:08,975 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Shutting down DiscoveryClient ...
+2022-11-18 18:55:11,997 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Unregistering ...
+2022-11-18 18:55:12,009 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - deregister  status: 200
+2022-11-18 18:55:12,026 INFO com.netflix.discovery.DiscoveryClient [SpringApplicationShutdownHook] Completed shut down of DiscoveryClient
+2022-11-18 18:55:35,960 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - Re-registering apps/EXCEL-SERVICE
+2022-11-18 18:55:35,962 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082: registering service...
+2022-11-18 18:55:35,977 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_EXCEL-SERVICE/rpkreddy:EXCEL-SERVICE:8082 - registration status: 204
