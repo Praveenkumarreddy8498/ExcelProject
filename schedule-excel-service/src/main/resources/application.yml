@@ -2,4 +2,8 @@ spring:
   application:
     name: EXCEL-SERVICE
   config:
-    import: configserver:http://localhost:8888
+    import: configserver:http://${configServerHost}:${configServerPort}
+eureka:
+  client:
+    service-url:
+      default-zone: http://EUREKA-SERVER    

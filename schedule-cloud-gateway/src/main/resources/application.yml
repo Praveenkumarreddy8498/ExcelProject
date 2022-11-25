@@ -1,6 +1,27 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://EUREKA-SERVER 
+  
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: GATEWAY
   config:
-    import: configserver:http://localhost:8888  
+    import: configserver:http://${configServerHost}:${configServerPort}
+    
+  security:
+    oauth2:
+      client:
+        provider:
+          my-keycloak-provider:
+            issuer-uri: http://localhost:8080/realms/My-Realm
+        registration:
+          keycloak-spring-gateway-client:
+            provider: my-keycloak-provider
+            scope: openid
+            client-id: spring-gateway-application
+            authorization-grant-type: authorization_code
+            redirect-uri: "{baseUrl}/login/oauth2/code/keycloak"    
   

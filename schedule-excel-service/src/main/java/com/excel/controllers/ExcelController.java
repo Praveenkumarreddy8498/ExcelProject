@@ -2,6 +2,7 @@ package com.excel.controllers;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -42,8 +43,15 @@ public class ExcelController {
 
 	/**
 	 * This is a scheduling enabled method is used to export the excel file into
-	 * specified location
-	 * scheduler will schedule the job At 12:00 AM on every Monday through Friday​
+	 * specified location scheduler will schedule the job At 12:00 AM on every
+	 * Monday through Friday​
+	 * The fields read from left to right are interpreted as follows
+	 * second(0-59) 
+	 * minute(0-59) 
+	 * hour(0-23)
+	 * day of month(1-31)
+	 * month(1-12)
+	 * day of week(0-6)(Sunday is 0)
 	 * 
 	 * @return String for response message
 	 * @throws IOException for input output exception
@@ -55,14 +63,17 @@ public class ExcelController {
 
 		List<Schedule> schedule = scheduleService.getByDay(LocalDateTime.now().getDayOfWeek().name());
 		exporter = new ExcelExporter(schedule);
+		logger.info("importing the data from excel sheet");
 		exporter.exportData();
-		logger.info("exporting the data");
+		logger.info("data imported successfully");
 		HttpHeaders header = new HttpHeaders();
 		header.add("desc", "It adds the data in to workbook");
-		FileOutputStream outputStream = new FileOutputStream(filepath);
+		FileOutputStream outputStream = new FileOutputStream(filepath.concat(LocalDate.now().toString()+".xlsx"));
 		XSSFWorkbook workbook = exporter.getWorkbook();
+		logger.info("writing Excel sheet into FileOutputStream");
+
 		workbook.write(outputStream);
-		logger.info("Data Written SuccesssFully at " + LocalDateTime.now());
+		logger.info("Data Written SuccesssFully into location at " + LocalDateTime.now());
 		workbook.close();
 		outputStream.close();
 		String body = "Excel sheet Exported To specific location at " + LocalDateTime.now();

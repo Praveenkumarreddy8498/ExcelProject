@@ -47,6 +47,7 @@ public class ScheduleController {
 
 		ResponseEntity<List<Schedule>> responseEntity = new ResponseEntity<List<Schedule>>(schedule, header,
 				HttpStatus.OK);
+		logger.info("schdule shown successfully");
 		return responseEntity;
 	}
 
@@ -65,6 +66,8 @@ public class ScheduleController {
 		Schedule schedule2 = scheduleService.addSchedule(schedule);
 
 		ResponseEntity<Schedule> responseEntity = new ResponseEntity<Schedule>(schedule2, header, HttpStatus.OK);
+		logger.info(" task added to schedule succesfully");
+
 		return responseEntity;
 	}
 
@@ -83,6 +86,7 @@ public class ScheduleController {
 		List<Schedule> schedule = scheduleService.getByDay(day);
 		ResponseEntity<List<Schedule>> responseEntity = new ResponseEntity<List<Schedule>>(schedule, header,
 				HttpStatus.OK);
+		logger.info("schedule by day got successfully");
 		return responseEntity;
 	}
 

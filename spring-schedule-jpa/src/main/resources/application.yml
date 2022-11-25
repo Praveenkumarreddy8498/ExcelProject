@@ -1,6 +1,19 @@
 spring:
   application:
     name: SCHEDULE-SERVICE
+      
   config:
-    import: configserver:http://localhost:8888
-  
+    import: configserver:http://${configServerHost}:${configServerPort}
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+        
+server:
+  port: 8888
+      

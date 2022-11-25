@@ -28,11 +28,15 @@ public class ScheduleServiceImpl implements IScheduleService {
 	 */
 	@Override
 	public List<Schedule> getAll() {
+		logger.info("Getting the schedule in service");
+
 		List<Schedule> schedule = scheduleRepository.findAll();
 		if (schedule.isEmpty()) {
 			logger.warn("Exception occured while getting the schedule");
 			throw new ScheduleNotFoundException();
 		}
+		logger.info("Got the schedule in service");
+
 		return schedule;
 	}
 
@@ -44,7 +48,10 @@ public class ScheduleServiceImpl implements IScheduleService {
 	 */
 	@Override
 	public Schedule addSchedule(Schedule schedule) {
-		return scheduleRepository.save(schedule);
+		logger.info("Adding the schedule to repository");
+		Schedule addedSchedule=scheduleRepository.save(schedule);
+		logger.info("Added the schedule to database");
+		return addedSchedule; 
 	}
 
 	/**
@@ -55,11 +62,16 @@ public class ScheduleServiceImpl implements IScheduleService {
 	 */
 	@Override
 	public List<Schedule> getByDay(String day) {
+		logger.info("Getting the schedule by day in service");
+
 		List<Schedule> schedule = scheduleRepository.findByDay(day);
+
 		if (schedule.isEmpty()) {
 			logger.warn("Exception occured while getting by day");
 			throw new ScheduleNotFoundException();
 		}
+		logger.info("Got the schedule by day in service");
+
 		return schedule;
 	}
 

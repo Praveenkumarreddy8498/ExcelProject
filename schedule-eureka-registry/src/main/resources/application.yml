@@ -1,9 +1,9 @@
-server:
-  port: 8761
-
+spring:
+   application:
+      name: EUREKA-SERVER
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${hostname}
   client:
     service-url:
       default-zone: http://${eureka.instance.hostname}:${server.port}
@@ -11,3 +11,11 @@ eureka:
     register-with-eureka: false
   server:
     enable-self-preservation: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

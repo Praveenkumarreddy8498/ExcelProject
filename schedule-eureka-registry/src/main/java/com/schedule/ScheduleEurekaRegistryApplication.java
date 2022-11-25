@@ -15,8 +15,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class ScheduleEurekaRegistryApplication {
 
 	/**
-	 * @param args for passing arguemnets
+	 * @param args for passing arguments
 	 */
+	
 	public static void main(String[] args) {
 		SpringApplication.run(ScheduleEurekaRegistryApplication.class, args);
 	}
