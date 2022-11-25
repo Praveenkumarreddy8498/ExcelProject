@@ -4,8 +4,17 @@ eureka:
       default-zone: http://EUREKA-SERVER 
   
 spring:
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
   application:
     name: GATEWAY
   config:
     import: configserver:http://${configServerHost}:${configServerPort}
- 
+    
+keycloak:
+  realm: My-Realm
+  auth-server-url: http://localhost:8080
+  resource: schedule-cloud-gateway
+  public-client: true
+  bearer-only: true  

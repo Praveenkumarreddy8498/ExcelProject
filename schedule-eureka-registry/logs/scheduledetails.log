@@ -505,3 +505,21 @@
 2022-11-25 18:58:16,520 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] Current renewal threshold is : 0
 2022-11-25 18:58:16,683 WARN com.netflix.eureka.cluster.PeerEurekaNodes [Eureka-PeerNodesUpdater] The replica size seems to be empty. Check the route 53 DNS Registry
 2022-11-25 18:58:17,916 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-11-25 18:59:17,057 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance CONFIG-SERVER/rpkreddy:CONFIG-SERVER:8888 with status DOWN (replication=false)
+2022-11-25 18:59:17,917 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-11-25 18:59:19,781 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(834)-127.0.0.1] Application shutdown requested.
+2022-11-25 18:59:19,862 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(834)-127.0.0.1] Unregistering application EUREKA-SERVER with eureka with status DOWN
+2022-11-25 18:59:20,213 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Cancelled instance CONFIG-SERVER/rpkreddy:CONFIG-SERVER:8888 (replication=false)
+2022-11-25 18:59:20,415 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(834)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8761"]
+2022-11-25 18:59:20,418 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(834)-127.0.0.1] Stopping service [Tomcat]
+2022-11-25 18:59:20,441 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(834)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-25 18:59:20,538 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(834)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8761"]
+2022-11-25 18:59:20,549 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(834)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8761"]
+2022-11-25 18:59:20,551 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(834)-127.0.0.1] Shutting down Eureka Server..
+2022-11-25 18:59:20,581 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(834)-127.0.0.1] Shutting down ...
+2022-11-25 18:59:20,644 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(834)-127.0.0.1] Shut down
+2022-11-25 18:59:20,644 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(834)-127.0.0.1] Eureka Service is now shutdown...
+2022-11-25 18:59:20,654 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(834)-127.0.0.1] Shutting down ...
+2022-11-25 18:59:20,680 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(834)-127.0.0.1] Shut down
+2022-11-25 18:59:20,729 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(834)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-11-25 18:59:20,741 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(834)-127.0.0.1] Completed shut down of DiscoveryClient
