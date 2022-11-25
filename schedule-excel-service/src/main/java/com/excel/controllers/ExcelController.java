@@ -6,6 +6,8 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import javax.annotation.security.RolesAllowed;
+
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -58,7 +60,7 @@ public class ExcelController {
 	 */
 	@GetMapping("/export")
 	@Scheduled(cron = "0 0 0 * * 1-5")
-
+	@RolesAllowed("ADMIN")
 	public ResponseEntity<String> excelExport() throws IOException {
 
 		List<Schedule> schedule = scheduleService.getByDay(LocalDateTime.now().getDayOfWeek().name());

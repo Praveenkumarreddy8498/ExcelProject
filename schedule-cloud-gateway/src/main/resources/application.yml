@@ -6,22 +6,15 @@ eureka:
 spring:
   main:
     allow-bean-definition-overriding: true
+    web-application-type: reactive
   application:
     name: GATEWAY
   config:
     import: configserver:http://${configServerHost}:${configServerPort}
     
-  security:
-    oauth2:
-      client:
-        provider:
-          my-keycloak-provider:
-            issuer-uri: http://localhost:8080/realms/My-Realm
-        registration:
-          keycloak-spring-gateway-client:
-            provider: my-keycloak-provider
-            scope: openid
-            client-id: spring-gateway-application
-            authorization-grant-type: authorization_code
-            redirect-uri: "{baseUrl}/login/oauth2/code/keycloak"    
-  
+keycloak:
+  realm: My-Realm
+  auth-server-url: http://localhost:8080
+  resource: schedule-cloud-gateway
+  public-client: true
+  bearer-only: true  

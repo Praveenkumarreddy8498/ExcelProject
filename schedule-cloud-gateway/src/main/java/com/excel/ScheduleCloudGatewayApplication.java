@@ -13,9 +13,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @author PraveenKumarReddy
  *
  */
-@ConfigurationPropertiesScan
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class,ReactiveUserDetailsServiceAutoConfiguration.class})
-//@SpringBootApplication(exclude = ReactiveUserDetailsServiceAutoConfiguration.class)
+@SpringBootApplication
 @EnableEurekaClient
 public class ScheduleCloudGatewayApplication {
 	/**
